@@ -51,11 +51,14 @@ switch($a){
 ?>
 
 <?php
-
+//Normal Function call no return value
 function sum($a,$b){
 
 echo $a+$b;
 }
 
 sum(10,20);
+
+//end
+
 ?>
