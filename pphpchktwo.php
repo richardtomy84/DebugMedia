@@ -32,4 +32,17 @@ $ar = ["name"=>"Tintu","age"=>28,"mark"=>40];
 echo $ar["name"];
 
 
+
+?>
+
+
+<?php
+$a=1;
+
+switch($a){
+    case 1 : echo "sunday";
+    case 2 : echo "Monday";
+    case 3 : echo "Tuday";
+    case 4: echo "none of the above";
+}
 ?>
