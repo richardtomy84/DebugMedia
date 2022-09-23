@@ -72,3 +72,13 @@ function sum_no_b($a,$b=54){
     //end
 
 ?>
+
+<?php
+function sum_return($a,$b=54){
+
+    return $a+$b;
+    }
+
+    echo sum_return(10);
+
+?>
