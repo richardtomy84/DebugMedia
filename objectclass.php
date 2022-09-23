@@ -1,7 +1,7 @@
 <?php
 
 class Student{
-    private $name;
+    public $name;
     private $roll_number;
 
     public function setName($n)
