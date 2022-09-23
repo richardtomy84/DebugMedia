@@ -79,6 +79,7 @@ function sum_return($a,$b=54){
     return $a+$b;
     }
 
-    echo sum_return(10);
+    //echo sum_return(600);
+     sum_return(600);
 
 ?>
