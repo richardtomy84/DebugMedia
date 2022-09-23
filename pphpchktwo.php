@@ -67,8 +67,8 @@ function sum_no_b($a,$b=54){
     echo $a+$b;
     }
     
-    sum_no_b(10);
-    
+   // sum_no_b(10); //$b no value assign
+   sum_no_b(10,100);
     //end
 
 ?>
