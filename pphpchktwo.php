@@ -61,4 +61,14 @@ sum(10,20);
 
 //end
 
+//Normal Function, if $b Has no Value, call no return value
+function sum_no_b($a,$b=54){
+
+    echo $a+$b;
+    }
+    
+    sum_no_b(10);
+    
+    //end
+
 ?>
