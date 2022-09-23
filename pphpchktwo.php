@@ -81,5 +81,14 @@ function sum_return($a,$b=54){
 
     //echo sum_return(600);
      sum_return(600);
+/*
+require and include : use for add other php filles to our project
 
+require : if other php filles are not in this fille it show error message and code not working ,, only show error message
+
+include : if other php filles not in this fille it show error ... but project will run
+
+
+*/
 ?>
+
