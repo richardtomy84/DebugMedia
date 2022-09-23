@@ -1,7 +1,10 @@
 <?php
 
 class Student{
-    public $name;
+   // public $name;
+   
+   private $name;
+
     private $roll_number;
 
     public function setName($n)
@@ -10,17 +13,20 @@ class Student{
 
     }
 
-    public function setRollNumber($r){
-        $this->name = $r;
+    public function setRollNumber($r)
+    {
+        $this->roll_number = $r;
 
     }
 
-    public function getName(){
+    public function getName()
+    {
         return $this->name;
 
     }
 
-    public function getRollNumber(){
+    public function getRollNumber()
+    {
         return $this->roll_number;
 
     }
@@ -28,7 +34,12 @@ class Student{
 }
 
 $ob = new Student();
-$ob->name = "abc";
+//$ob->name = "abc";
+$ob->setName("appu");
+$ob->setRollNumber(10);
+
+echo $ob->getName();
+echo $ob->getRollNumber();
 
 ?>
 
