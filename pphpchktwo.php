@@ -84,9 +84,9 @@ function sum_return($a,$b=54){
 /*
 require and include : use for add other php filles to our project
 
-require : if other php filles are not in this fille it show error message and code not working ,, only show error message
+require : (program will stop) if other php filles are not in this fille it show error message and code not working ,, only show error message
 
-include : if other php filles not in this fille it show error ... but project will run
+include : (program will run only show error message)if other php filles not in this fille it show error ... but project will run
 
 
 */
