@@ -41,8 +41,11 @@ $a=1;
 
 switch($a){
     case 1 : echo "sunday";
+    break; //used to exit from a block
     case 2 : echo "Monday";
+    break;
     case 3 : echo "Tuday";
+    break;
     case 4: echo "none of the above";
 }
 ?>
