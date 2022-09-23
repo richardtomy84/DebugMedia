@@ -49,3 +49,13 @@ switch($a){
     case 4: echo "none of the above";
 }
 ?>
+
+<?php
+
+function sum($a,$b){
+
+echo $a+$b;
+}
+
+sum(10,20);
+?>
