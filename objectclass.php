@@ -27,6 +27,8 @@ class Student{
 
 }
 
+$ob = new Student();
+$ob->name = "abc";
 
 ?>
 
